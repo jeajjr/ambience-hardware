@@ -6432,27 +6432,38 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <text x="-1.27" y="-49.53" size="1.27" layer="21">&gt;NAME</text>
 <text x="20.32" y="-49.53" size="1.27" layer="21">NODEMCU</text>
 </package>
-<package name="HEADER-2X1">
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.778" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<package name="J4-2.2X5.1">
+<pad name="P$1" x="0" y="0" drill="1.651" shape="square"/>
+<pad name="P$2" x="0" y="-6" drill="1.651" shape="square"/>
+<wire x1="-5" y1="-6.5" x2="-5" y2="9" width="0.127" layer="21"/>
+<wire x1="-5" y1="9" x2="-3" y2="9" width="0.127" layer="21"/>
+<wire x1="-3" y1="9" x2="-0.5" y2="9" width="0.127" layer="21"/>
+<wire x1="0.5" y1="9" x2="3" y2="9" width="0.127" layer="21"/>
+<wire x1="3" y1="9" x2="5" y2="9" width="0.127" layer="21"/>
+<wire x1="5" y1="9" x2="5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="5" y1="-6.5" x2="-5" y2="-6.5" width="0.127" layer="21"/>
+<pad name="P$3" x="-5" y="-3" drill="1.651" shape="square"/>
+<wire x1="-0.5" y1="9" x2="-0.5" y2="4.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="4.5" x2="0.5" y2="4.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="4.5" x2="0.5" y2="9" width="0.127" layer="21"/>
+<wire x1="0.5" y1="9" x2="-0.5" y2="9" width="0.127" layer="21"/>
+<wire x1="-3" y1="9" x2="-3" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3" y1="2.5" x2="3" y2="9" width="0.127" layer="21"/>
+<wire x1="-5" y1="9" x2="-3" y2="9" width="0.127" layer="22"/>
+<wire x1="-3" y1="9" x2="-0.5" y2="9" width="0.127" layer="22"/>
+<wire x1="-0.5" y1="9" x2="0.5" y2="9" width="0.127" layer="22"/>
+<wire x1="3" y1="9" x2="5" y2="9" width="0.127" layer="22"/>
+<wire x1="5" y1="9" x2="5" y2="-6.5" width="0.127" layer="22"/>
+<wire x1="5" y1="-6.5" x2="-5" y2="-6.5" width="0.127" layer="22"/>
+<wire x1="-5" y1="-6.5" x2="-5" y2="9" width="0.127" layer="22"/>
+<wire x1="-3" y1="9" x2="-3" y2="2.5" width="0.127" layer="22"/>
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="22"/>
+<wire x1="3" y1="2.5" x2="3" y2="9" width="0.127" layer="22"/>
+<wire x1="3" y1="9" x2="0.5" y2="9" width="0.127" layer="22"/>
+<wire x1="0.5" y1="9" x2="0.5" y2="4.5" width="0.127" layer="22"/>
+<wire x1="0.5" y1="4.5" x2="-0.5" y2="4.5" width="0.127" layer="22"/>
+<wire x1="-0.5" y1="4.5" x2="-0.5" y2="9" width="0.127" layer="22"/>
 </package>
 </packages>
 <symbols>
@@ -6494,13 +6505,14 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <text x="0" y="-40.64" size="1.778" layer="94">&gt;NAME</text>
 <text x="0" y="-43.18" size="1.778" layer="94">NODEMCU</text>
 </symbol>
-<symbol name="HEADER-2X1">
-<pin name="P$1" x="-5.08" y="0" length="middle"/>
-<pin name="P$2" x="-5.08" y="-2.54" length="middle"/>
-<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<symbol name="J4-2.2X5.1">
+<pin name="GND1" x="-5.08" y="0" length="middle"/>
+<pin name="+V" x="-5.08" y="2.54" length="middle"/>
+<pin name="GND2" x="-5.08" y="-2.54" length="middle"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6548,15 +6560,16 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="HEADER-2X1">
+<deviceset name="J4-2.2X5.1">
 <gates>
-<gate name="G$1" symbol="HEADER-2X1" x="-2.54" y="2.54"/>
+<gate name="G$1" symbol="J4-2.2X5.1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HEADER-2X1">
+<device name="" package="J4-2.2X5.1">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="+V" pad="P$2"/>
+<connect gate="G$1" pin="GND1" pad="P$1"/>
+<connect gate="G$1" pin="GND2" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6664,9 +6677,9 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="R19" library="adafruit" deviceset="R-US_" device="M0805"/>
 <part name="U$1" library="z-lib" deviceset="ESP8266" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$2" library="z-lib" deviceset="HEADER-2X1" device=""/>
 <part name="IC3" library="adafruit" deviceset="78*" device="TO220"/>
 <part name="IC4" library="adafruit" deviceset="78*" device="TO220"/>
+<part name="U$2" library="z-lib" deviceset="J4-2.2X5.1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6700,8 +6713,8 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="OK3" gate="A" x="96.52" y="38.1"/>
 <instance part="CN1" gate="G$1" x="106.68" y="121.92"/>
 <instance part="CN2" gate="G$1" x="132.08" y="121.92"/>
-<instance part="P+4" gate="1" x="68.58" y="124.46"/>
-<instance part="GND10" gate="1" x="66.04" y="116.84"/>
+<instance part="P+4" gate="1" x="60.96" y="124.46"/>
+<instance part="GND10" gate="1" x="60.96" y="114.3"/>
 <instance part="GND11" gate="1" x="101.6" y="114.3"/>
 <instance part="GND12" gate="1" x="127" y="114.3"/>
 <instance part="P+5" gate="1" x="101.6" y="127"/>
@@ -6761,9 +6774,9 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="R19" gate="G$1" x="0" y="10.16"/>
 <instance part="U$1" gate="G$1" x="15.24" y="40.64"/>
 <instance part="+3V11" gate="G$1" x="-5.08" y="12.7"/>
-<instance part="U$2" gate="G$1" x="73.66" y="121.92"/>
 <instance part="IC3" gate="A1" x="22.86" y="99.06"/>
 <instance part="IC4" gate="A1" x="22.86" y="81.28"/>
+<instance part="U$2" gate="G$1" x="68.58" y="119.38"/>
 </instances>
 <busses>
 </busses>
@@ -6896,14 +6909,17 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
-<wire x1="66.04" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="30.48" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND2"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="63.5" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="GND1"/>
+<wire x1="63.5" y1="119.38" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<junction x="63.5" y="116.84"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -7014,7 +7030,8 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+12V"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="U$2" gate="G$1" pin="+V"/>
+<wire x1="60.96" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CTRL_A_5V" class="0">
